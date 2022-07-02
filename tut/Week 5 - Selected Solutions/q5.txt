@@ -1,0 +1,6 @@
+
+1. When you pass a list to a function, it will copy its memory address (not the contents) and therefore when you access an index based on that list will use that memory address to read or write to that address.
+
+When a numerical object such as an int or a float or boolean is copied, the value itself is copied (x = 1, 1 is copied to function not the address where 1 is stored unlike the list).
+
+Therefore when we modify the variable (use the assignment operator) it will only modify the local variable of that function.
